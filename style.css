@@ -1,0 +1,63 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;}
+    body#bg-img1 {
+        width: 100%;
+        height: 100vh;
+        background: url(assets/main-bg.jpg) top right;
+        background-size: cover;
+    }
+    body#bg-img2 {
+        width: 100%;
+        height: 100vh;
+        background: url(assets/the-games-bg.jpg) top right;
+        background-size: cover;
+    }
+    body#bg-img3 {
+        width: 100%;
+        height: 100vh;
+        background: url(assets/features.jpg) top right;
+        background-size: cover;
+    }
+    body#bg-img4 {
+        width: 100%;
+        height: 100vh;
+        background: url(assets/requirements.png) top right;
+        background-size: cover;
+    }
+    body#bg-img5 {
+        width: 100%;
+        height: 100vh;
+        background: url(assets/top-score-bg.png) top right;
+        background-size: cover;
+    }
+
+
+
+#page-6 {
+    background-image: url(../assets/top-score-bg.png);
+    background-size: cover;
+    height: 900px;
+}
+
+
+
+
+.transparan {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.jumbotron {
+    background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 300px;
+}
+.carousel {
+    /* width: 300px; */
+}
