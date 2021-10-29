@@ -32,17 +32,6 @@ body {
         background-size: cover;
     }
 
-
-
-#page-6 {
-    background-image: url(../assets/top-score-bg.png);
-    background-size: cover;
-    height: 900px;
-}
-
-
-
-
 .transparan {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -58,6 +47,14 @@ body {
     background-size: cover;
     padding-top: 300px;
 }
-.carousel {
-    /* width: 300px; */
+.nav-link:hover {
+    font-weight: bold;
+    background-color: #28a745;
+    border-radius: 8px;
+}
+.active {
+    font-weight: bold;
+    text-shadow: 4px 4px 10px #28a745;
+    color: #28a745;
+    border-radius: 8px;
 }
