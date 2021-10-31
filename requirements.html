@@ -25,60 +25,149 @@
                     <a class="nav-link mx-3" href="top-scores.html">QUOTES</a>
                 </div>
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link btn btn-sm btn-outline-success mx-2" href="#">SIGN UP</a>
-                    <a class="nav-link btn btn-sm btn-outline-success mx-2" href="#">LOGIN</a>
+                    <a class="nav-link btn btn-sm btn-outline-success mx-2" data-toggle="modal" data-target="#exampleModalSignUp">SIGN UP</a>
+                    <a class="nav-link btn btn-sm btn-outline-success mx-2" data-toggle="modal" data-target="#exampleModalLogin">LOGIN</a>
                 </div>
             </div>
         </nav>
 
-
-        <div class="container">
-            <div class="row">
-                <div class="col">col</div>
-                <div class="col">col</div>
-                <div class="col">col</div>
-                <div class="col">col</div>
+        <!-- Modal Sign Up -->
+        <div class="modal fade" id="exampleModalSignUp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Please Sign Up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="login text-center align-items-center">
+                        <form>
+                            <h1 class="h3 mb-3 font-weight-normal">Sign up to play this games with your friends.</h1>
+                            <div class="form-group text-left">
+                                <label for="exampleInputEmail1">Full Name :</label>
+                                <input type="text" class="form-control" placeholder="Full Name">
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="exampleInputNumber">Mobile Number :</label>
+                                <input type="tel" name="phone" pattern="[0-9]{12}" class="form-control" placeholder="Mobile Number">
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="exampleFormControlSelect2">Gender :</label>
+                                <select class="form-control" id="exampleFormControlSelect2">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="exampleInputEmail1">Email address :</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email addres">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="exampleInputPassword1">Password :</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="exampleInputPassword1">Comfirm Password :</label>
+                                <input type="password" class="form-control" id="exampleInputComfirmPassword1" placeholder="Confirm Pasword">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">I agree to create My Account</label>
+                            </div>
+                            <button type="submit" class="btn btn-success">SIGN UP</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p>product</p>
+        <!-- Modal Login-->
+        <div class="modal fade" id="exampleModalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Please Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
                 </div>
-                <div class="col">
-                    <p>product</p>
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
+                <div class="modal-body">
+                    <div class="login text-center align-items-center">
+                        <form class="form-signin">
+                            <img class="mb-4" src="assets/User.png" alt="" width="72" height="72">
+                            <h1 class="h3 mb-3 font-weight-normal">Player Account</h1>
+                            <label for="inputUsernamel" class="sr-only">Username</label>
+                            <input type="email" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+                            <label for="inputPassword" class="sr-only">Password</label>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                            <div class="checkbox mb-3">
+                                <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-lg btn-success btn-block" type="submit">LOGIN</button>
+                            </div>
+                            <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
+                        </form>
+                    </div>
                 </div>
             </div>
+            </div>
+        </div>
+
+        <div class="container text-light text-center mt-5 pt-5">
+            <p>Can My Computer Run this page?</p>
+        </div>
+
+        <div class="container mt-5 text-light">
             <div class="row">
-                <div class="col">
-                    <p>product</p>
-                </div>
-                <div class="col">
-                    <p>product</p>
-                </div>
-                <div class="col">
-                    
-                </div>
-                <div class="col">
-                    
+                <div class="col-lg-6">
+                    <h1 class="display-4 font-weight-bold">SISTEM REQUIREMENTS</h1>
                 </div>
             </div>
         </div>
 
+        <div class="container mt-5">
+            <div class="row text-light">
+                <div class="col-lg-3 table-bordered pt-3">
+                    <h3 class="text-warning">OS :</h3>
+                    <p>Windows 7 64-bit only (No OSX support at time)</p>
+                </div>
+                <div class="col-lg-3 table-bordered pt-3">
+                    <h3 class="text-warning">PROCESSOR :</h3>
+                    <p>Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.4 GHZ</p>
+                </div>
+            </div>
+            <div class="row text-light">
+                <div class="col-lg-3 table-bordered pt-3">
+                    <h3 class="text-warning">MEMORY :</h3>
+                    <p>4 GB RAM</p>
+                </div>
+                <div class="col-lg-3 table-bordered pt-3">
+                    <h3 class="text-warning">STORAGE :</h3>
+                    <p>8 GB available space</p>
+                </div>
+            </div>
+            <div class="row text-light">
+                <div class="col-lg-6 table-bordered pt-3">
+                    <h3 class="text-warning">GRAPHICS :</h3>
+                    <p>NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+                </div>
+            </div>
+        </div><br>
 
 
 
 
 
 
-        <footer class="transparan fixed-bottom py-3">
+
+        <footer class="transparan fixed-bottom py-1">
             <div class="text-center text-light">
             &copy; Copyright <strong><span>2021</span></strong>. All Rights Reserved
             </div>
