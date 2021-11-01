@@ -22,7 +22,7 @@
                     <a class="nav-link mx-3" href="about.html">ABAOUT</a>
                     <a class="nav-link mx-3 nav-active" href="features.html">FEATURES</a>
                     <a class="nav-link mx-3" href="requirements.html">REQUIREMENTS</a>
-                    <a class="nav-link mx-3" href="top-scores.html">QUOTES</a>
+                    <a class="nav-link mx-3" href="quotes.html">QUOTES</a>
                 </div>
                 <div class="navbar-nav ml-auto">
                     <a class="nav-link btn btn-sm btn-outline-success mx-2" data-toggle="modal" data-target="#exampleModalSignUp">SIGN UP</a>
@@ -120,33 +120,36 @@
             </div>
         </div>
 
+        <!-- Features -->
         <div class="container text-light mt-5 pt-5">
             <div class="row">
-                <div class="col-lg-6">
-                    <p>what's so special?</p>
-                </div>
+                <div class="col-lg-6"></div>
                 <div class="col-lg-6">
                     <p>what's so special?</p>
                     <h class="display-4">FEATURES</h>
-                    <div class="card bg-transparent mt-5" style="width: 30rem;">
-                        <img src="assets/rockpaperstrategy-1600.jpg" class="card-img-top" alt="Gambar" style="border-radius: 15px;">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+                
+                <div class="text mt-5">
+                    <div class="stepbar">
+                        <label for="formControlRange">Step Games :</label>
+                        <input type="range" class="form-control-plaintext bg-warning" id="progressbar1">
                     </div>
+                        <ul id="progressbar" class="text-left">
+                            <li class="active step text-warning">TRADISIONAL GAMES</li>
+                            <li class="none"> <small>If you miss your childhood, we provide many tradisional games here</small></li>
+                            <li class="step text-warning">GAME SUIT</li>
+                            <li class="step text-warning">TDB</li>
+                        </ul>
+                </div>
                 </div>
             </div>
         </div>
 
-
-
-
-
-
-
+        <!-- Footer -->
         <footer class="transparan fixed-bottom py-1">
-            <div class="text-center text-light">
-            &copy; Copyright <strong><span>2021</span></strong>. All Rights Reserved
+            <div class="containerr">
+                <div class="text-center text-light">
+                &copy; Copyright <strong><span>2021</span></strong>. All Rights Reserved
+                </div>
             </div>
         </footer>
 
@@ -154,6 +157,5 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-
     </body>
 </html>
