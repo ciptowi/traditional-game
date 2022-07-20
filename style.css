@@ -14,7 +14,7 @@ body {
     body#bg-img3 {
         width: 100%;
         height: 100vh;
-        background: url(assets/features.jpg);
+        background: url(assets/features.png);
         background-size: cover;}
     body#bg-img4 {
         width: 100%;
